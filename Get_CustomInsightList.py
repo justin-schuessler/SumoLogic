@@ -9,8 +9,8 @@ import get_1password_field
 
 if __name__ == "__main__":
     original_stdout = sys.stdout
-    access_id = get_1password_field("BU Sumo API Credentials", "username", "API")
-    secret_key = get_1password_field("BU Sumo API Credentials", "access key", "API")
+    access_id = get_1password_field.get_1password_field("BU Sumo API Credentials", "username", "API")
+    secret_key = get_1password_field.get_1password_field("BU Sumo API Credentials", "access key", "API")
 
     accessID = access_id
     accessKey = secret_key
