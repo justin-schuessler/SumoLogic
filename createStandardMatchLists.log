@@ -1,0 +1,126 @@
+INFO:root:Creating admin_ips
+INFO:root:Successfully created admin_ips. Status Code: 200
+INFO:root:Creating admin_accounts
+INFO:root:Successfully created admin_accounts. Status Code: 200
+INFO:root:Creating admin_username
+INFO:root:Successfully created admin_username. Status Code: 200
+INFO:root:Creating Alibaba_admin_ips
+INFO:root:Successfully created Alibaba_admin_ips. Status Code: 200
+INFO:root:Creating Alibaba_admin_users
+INFO:root:Successfully created Alibaba_admin_users. Status Code: 200
+INFO:root:Creating authorized_third_party_domains
+INFO:root:Successfully created authorized_third_party_domains. Status Code: 200
+INFO:root:Creating auth_servers
+INFO:root:Successfully created auth_servers. Status Code: 200
+INFO:root:Creating auth_servers_dst
+INFO:root:Successfully created auth_servers_dst. Status Code: 200
+INFO:root:Creating auth_servers_src
+INFO:root:Successfully created auth_servers_src. Status Code: 200
+INFO:root:Creating AWS_admin_ips
+INFO:root:Successfully created AWS_admin_ips. Status Code: 200
+INFO:root:Creating AWS_admin_users
+INFO:root:Successfully created AWS_admin_users. Status Code: 200
+INFO:root:Creating business_asns
+INFO:root:Successfully created business_asns. Status Code: 200
+INFO:root:Creating business_domains
+INFO:root:Successfully created business_domains. Status Code: 200
+INFO:root:Creating business_hostnames
+INFO:root:Successfully created business_hostnames. Status Code: 200
+INFO:root:Creating business_ips
+INFO:root:Successfully created business_ips. Status Code: 200
+INFO:root:Creating domain_controllers
+INFO:root:Successfully created domain_controllers. Status Code: 200
+INFO:root:Creating dns_servers
+INFO:root:Successfully created dns_servers. Status Code: 200
+INFO:root:Creating dns_servers_dst
+INFO:root:Successfully created dns_servers_dst. Status Code: 200
+INFO:root:Creating dns_servers_src
+INFO:root:Successfully created dns_servers_src. Status Code: 200
+INFO:root:Creating downgrade_krb5_etype_authorized_users
+INFO:root:Successfully created downgrade_krb5_etype_authorized_users. Status Code: 200
+INFO:root:Creating ds_replication_authorized_users
+INFO:root:Successfully created ds_replication_authorized_users. Status Code: 200
+INFO:root:Creating dyndns_exception_domains
+INFO:root:Successfully created dyndns_exception_domains. Status Code: 200
+INFO:root:Creating dyndns_exception_hostnames
+INFO:root:Successfully created dyndns_exception_hostnames. Status Code: 200
+INFO:root:Creating ftp_servers
+INFO:root:Successfully created ftp_servers. Status Code: 200
+INFO:root:Creating gcp_admin
+INFO:root:Successfully created gcp_admin. Status Code: 200
+INFO:root:Creating GCP_admin_ips
+INFO:root:Successfully created GCP_admin_ips. Status Code: 200
+INFO:root:Creating GCP_admin_users
+INFO:root:Successfully created GCP_admin_users. Status Code: 200
+INFO:root:Creating Google_Workspace_admin_ips
+INFO:root:Successfully created Google_Workspace_admin_ips. Status Code: 200
+INFO:root:Creating Google_Workspace_admin_users
+INFO:root:Successfully created Google_Workspace_admin_users. Status Code: 200
+INFO:root:Creating guest_networks
+INFO:root:Successfully created guest_networks. Status Code: 200
+INFO:root:Creating honeypot_ip_addresses
+INFO:root:Successfully created honeypot_ip_addresses. Status Code: 200
+INFO:root:Creating http_servers
+INFO:root:Successfully created http_servers. Status Code: 200
+INFO:root:Creating lan_scanner_exception_ips
+INFO:root:Successfully created lan_scanner_exception_ips. Status Code: 200
+INFO:root:Creating nat_ips
+INFO:root:Successfully created nat_ips. Status Code: 200
+INFO:root:Creating nms_ips
+INFO:root:Successfully created nms_ips. Status Code: 200
+INFO:root:Creating Okta_Admins
+INFO:root:Successfully created Okta_Admins. Status Code: 200
+INFO:root:Creating palo_alto_sinkhole_ips
+INFO:root:Successfully created palo_alto_sinkhole_ips. Status Code: 200
+INFO:root:Creating proxy_servers
+INFO:root:Successfully created proxy_servers. Status Code: 200
+INFO:root:Creating proxy_servers_dst
+INFO:root:Successfully created proxy_servers_dst. Status Code: 200
+INFO:root:Creating proxy_servers_src
+INFO:root:Successfully created proxy_servers_src. Status Code: 200
+INFO:root:Creating public_ips
+INFO:root:Successfully created public_ips. Status Code: 200
+INFO:root:Creating salesforce_admin_ips
+INFO:root:Successfully created salesforce_admin_ips. Status Code: 200
+INFO:root:Creating salesforce_admin_users
+INFO:root:Successfully created salesforce_admin_users. Status Code: 200
+INFO:root:Creating sandbox_ips
+INFO:root:Successfully created sandbox_ips. Status Code: 200
+INFO:root:Creating scanner_targets
+INFO:root:Successfully created scanner_targets. Status Code: 200
+INFO:root:Creating smtp_servers
+INFO:root:Successfully created smtp_servers. Status Code: 200
+INFO:root:Creating sql_servers
+INFO:root:Successfully created sql_servers. Status Code: 200
+INFO:root:Creating ssh_servers
+INFO:root:Successfully created ssh_servers. Status Code: 200
+INFO:root:Creating ssl_exception_ips
+INFO:root:Successfully created ssl_exception_ips. Status Code: 200
+INFO:root:Creating telnet_servers
+INFO:root:Successfully created telnet_servers. Status Code: 200
+INFO:root:Creating threat
+INFO:root:Successfully created threat. Status Code: 200
+INFO:root:Creating unauthorized_external_media
+INFO:root:Successfully created unauthorized_external_media. Status Code: 200
+INFO:root:Creating verified_applications
+INFO:root:Error creating verified_applications.  Status Code: 400
+INFO:root:Creating verified_domains
+INFO:root:Successfully created verified_domains. Status Code: 200
+INFO:root:Creating verified_hostnames
+INFO:root:Successfully created verified_hostnames. Status Code: 200
+INFO:root:Creating verified_ips
+INFO:root:Successfully created verified_ips. Status Code: 200
+INFO:root:Creating verified_uri_ips
+INFO:root:Successfully created verified_uri_ips. Status Code: 200
+INFO:root:Creating verified_uri_paths
+INFO:root:Error creating verified_uri_paths.  Status Code: 400
+INFO:root:Creating vpn_networks
+INFO:root:Successfully created vpn_networks. Status Code: 200
+INFO:root:Creating vpn_servers
+INFO:root:Successfully created vpn_servers. Status Code: 200
+INFO:root:Creating web_servers
+INFO:root:Successfully created web_servers. Status Code: 200
+INFO:root:Creating vuln_scanners
+INFO:root:Successfully created vuln_scanners. Status Code: 200
+INFO:root:Creating zoom_admins
+INFO:root:Successfully created zoom_admins. Status Code: 200

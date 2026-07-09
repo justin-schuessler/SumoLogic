@@ -9,8 +9,8 @@ import get_1password_field
 
 if __name__ == "__main__":
     original_stdout = sys.stdout
-    access_id = get_1password_field.get_1password_field("BU Sumo API Credentials", "username", "API")
-    secret_key = get_1password_field.get_1password_field("BU Sumo API Credentials", "access key", "API")
+    access_id = get_1password_field.get_1password_field("BU Sumo API Credentials", "Access ID", "API")
+    secret_key = get_1password_field.get_1password_field("BU Sumo API Credentials", "Access Key", "API")
 
     accessID = access_id
     accessKey = secret_key
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     Fullpath = path + "BU_Sumo_Custom_Insights.json"
     f = open(Fullpath, "w")
     sys.stdout = f
-    output = json.dumps(data, indent=4, )
+    output = json.dumps(data, indent=4)
     print(output)
     f.close()
     sys.stdout = original_stdout

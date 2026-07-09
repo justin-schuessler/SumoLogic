@@ -7,13 +7,7 @@ from requests.auth import HTTPBasicAuth
 import sys
 import get_1password_field
 
-# argument variables
-#cip_access_id = sys.argv[1]
-#cip_access_key = sys.argv[2]
-#cip_deployment = sys.argv[3]
 
-# do not touch variables
-# match_list_url = f'https://api.{cip_deployment}.sumologic.com/api/sec/v1/match-lists'
 lists = [
     {'name': 'admin_ips', 'description': 'Hosts that are known to be involved with specific administrative or privileged activity on the network. Can be used for tracking hosts that are operated by admins and other privileged users, or are often the source of restricted, privileged or suspicious authorized actions, and so on. This sort of tracking is useful for baselining activity and as a result, surfacing more suspicious activity.', 'targetColumn': 'SrcIp'},
     {'name': 'admin_accounts', 'description': 'Accounts that are known to be involved with specific administrative or privileged activity.', 'targetColumn': 'Username'},
