@@ -112,6 +112,6 @@ if __name__ == '__main__':
     accessID = access_id
     accessKey = secret_key
 
-    logging.basicConfig(level=logging.INFO, filename='./createStandardMatchLists.log')
+    logging.basicConfig(level=logging.INFO, filename='C:/Users/justin.schuessler/Documents/API_Output/Sumo/createStandardMatchLists.log')
     create_match_lists(lists, BASE_URL, accessID, accessKey)
 
